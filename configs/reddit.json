@@ -25,7 +25,7 @@
     "model_dir": "mesh_jax_reddit_6B",
   
     "train_set": "reddit.train.index",
-    "val_set": "reddit.val.index",
+    "val_set": {"reddit": "reddit.val.index"},
   
     "eval_harness_tasks": [
         "piqa"
