@@ -27,6 +27,9 @@
     "train_set": "reddit_sample.train.index",
     "val_set": "reddit_sample.val.index",
   
+    "eval_harness_tasks": [
+        "piqa"
+    ],
   
     "val_batches": 4,
     "val_every": 500,
