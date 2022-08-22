@@ -1,0 +1,5 @@
+gs://reddit_training_data/train/00000.tfrecords
+gs://reddit_training_data/train/00001.tfrecords
+gs://reddit_training_data/train/00002.tfrecords
+gs://reddit_training_data/train/00003.tfrecords
+gs://reddit_training_data/train/00004.tfrecords
