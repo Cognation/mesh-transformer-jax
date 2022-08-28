@@ -32,8 +32,8 @@
     ],
   
     "val_batches": 1000,
-    "val_every": 500,
-    "ckpt_every": 500,
+    "val_every": 200,
+    "ckpt_every": 200,
     "keep_every": 100,
   
     "name": "GPTJ_6B_reddit",
