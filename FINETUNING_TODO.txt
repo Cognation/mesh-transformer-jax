@@ -1,0 +1,20 @@
+Follow these intructions to avoid dependency issues with jax and tensorflow libraries which have popped up recently.
+
+#1 - setup a virtual environment
+> python3 -m venv venv
+
+#2 - activate the virtual environment
+> source venv/bin/activate
+
+#3 - pip install wheel
+
+#4 - clone this repo
+
+#5 - install the requirements in requirements.txt
+> pip install -r requiremets.txt
+
+#6 - pip install "jax[tpu]>=0.2.16" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+
+#7 - pip install -U tensorflow
+
+the environment should work fine, now simpy use the device_train.py file with your custom config file to finetune.

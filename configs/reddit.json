@@ -14,8 +14,8 @@
   
     "warmup_steps": 200,
     "anneal_steps": 6000,
-    "lr": 1e-5,
-    "end_lr": 1.2e-6,
+    "lr": 5e-6,
+    "end_lr": 1e-6,
     "weight_decay": 0.1,
     "total_steps": 6200,
   
