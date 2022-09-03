@@ -32,9 +32,9 @@
     ],
   
     "val_batches": 1,
-    "val_every": 2,
-    "ckpt_every": 2,
-    "keep_every": 2,
+    "val_every": 10,
+    "ckpt_every": 20,
+    "keep_every": 20,
   
     "name": "GPTJ_6B_reddit_qna",
     "wandb_project": "GPTJ_6B_reddit_qna",
