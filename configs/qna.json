@@ -1,0 +1,42 @@
+{
+    "layers": 28,
+    "d_model": 4096,
+    "n_heads": 16,
+    "n_vocab": 50400,
+    "norm": "layernorm",
+    "pe": "rotary",
+    "pe_rotary_dims": 64,
+  
+    "seq": 2048,
+    "cores_per_replica": 8,
+    "per_replica_batch": 1,
+    "gradient_accumulation_steps": 1,
+  
+    "warmup_steps": 1,
+    "anneal_steps": 1,
+    "lr": 5e-5,
+    "end_lr": 1e-5,
+    "weight_decay": 0.1,
+    "total_steps": 2,
+  
+    "tpu_size": 8,
+  
+    "bucket": "gptjax_model_weights/mesh_jax_reddit_6B_2/step_1400",
+    "model_dir": "gptjax_model_weights",
+  
+    "train_set": "qna.train.index",
+    "val_set": {"qna": "qna.val.index"},
+  
+    "eval_harness_tasks": [
+        "piqa"
+    ],
+  
+    "val_batches": 1,
+    "val_every": 2,
+    "ckpt_every": 2,
+    "keep_every": 2,
+  
+    "name": "GPTJ_6B_reddit_qna",
+    "wandb_project": "GPTJ_6B_reddit_qna",
+    "comment": ""
+  }
