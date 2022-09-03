@@ -13,11 +13,11 @@
     "gradient_accumulation_steps": 1,
   
     "warmup_steps": 1,
-    "anneal_steps": 1,
+    "anneal_steps": 4,
     "lr": 5e-5,
     "end_lr": 1e-5,
     "weight_decay": 0.1,
-    "total_steps": 2,
+    "total_steps": 5,
   
     "tpu_size": 8,
   
