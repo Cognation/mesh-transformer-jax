@@ -21,8 +21,8 @@
   
     "tpu_size": 8,
   
-    "bucket": "gptjax_model_weights/mesh_jax_reddit_6B_2/step_1400",
-    "model_dir": "gptjax_model_weights",
+    "bucket": "gptjax_model_weights",
+    "model_dir": "qna_weights",
   
     "train_set": "qna.train.index",
     "val_set": {"qna": "qna.val.index"},
