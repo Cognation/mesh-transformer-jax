@@ -14,8 +14,8 @@
   
     "warmup_steps": 1,
     "anneal_steps": 149,
-    "lr": 1e-5,
-    "end_lr": 1e-6,
+    "lr": 1e-4,
+    "end_lr": 5e-5,
     "weight_decay": 0.1,
     "total_steps": 200,
   
@@ -33,10 +33,10 @@
   
     "val_batches": 1,
     "val_every": 10000,
-    "ckpt_every": 30,
-    "keep_every": 30,
+    "ckpt_every": 50,
+    "keep_every": 50,
   
-    "name": "GPTJ_6B_reddit_qna_empathy",
-    "wandb_project": "GPTJ_6B_reddit_qna_empathy",
+    "name": "GPTJ_6B_reddit_empathy",
+    "wandb_project": "GPTJ_6B_reddit_empathy",
     "comment": ""
   }
