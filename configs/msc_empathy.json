@@ -14,10 +14,10 @@
   
     "warmup_steps": 1,
     "anneal_steps": 149,
-    "lr": 5e-5,
-    "end_lr": 1e-5,
+    "lr": 1e-5,
+    "end_lr": 1e-6,
     "weight_decay": 0.1,
-    "total_steps": 150,
+    "total_steps": 200,
   
     "tpu_size": 8,
   
