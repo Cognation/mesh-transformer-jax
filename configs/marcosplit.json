@@ -1,0 +1,42 @@
+{
+    "layers": 28,
+    "d_model": 4096,
+    "n_heads": 16,
+    "n_vocab": 50400,
+    "norm": "layernorm",
+    "pe": "rotary",
+    "pe_rotary_dims": 64,
+  
+    "seq": 2048,
+    "cores_per_replica": 8,
+    "per_replica_batch": 1,
+    "gradient_accumulation_steps": 128,
+  
+    "warmup_steps": 1156,
+    "anneal_steps": 1156,
+    "lr": 1e-5,
+    "end_lr": 5e-6,
+    "weight_decay": 0.1,
+    "total_steps": 2312,
+  
+    "tpu_size": 8,
+  
+    "bucket": "gptjax_model_weights",
+    "model_dir": "msmarco_split",
+  
+    "train_set": "marcosplit.train.index",
+    "val_set": {"qna": "qna.val.index"},
+  
+    "eval_harness_tasks": [
+        "piqa"
+    ],
+  
+    "val_batches": 1,
+    "val_every": 10000,
+    "ckpt_every": 700,
+    "keep_every": 700,
+  
+    "name": "GPTJ_6B_MS_MARCO",
+    "wandb_project": "GPTJ_6B_MS_MARCO",
+    "comment": ""
+  }
