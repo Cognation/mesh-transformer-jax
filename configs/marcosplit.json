@@ -12,12 +12,12 @@
     "per_replica_batch": 1,
     "gradient_accumulation_steps": 128,
   
-    "warmup_steps": 1156,
-    "anneal_steps": 1156,
-    "lr": 1e-5,
-    "end_lr": 5e-6,
+    "warmup_steps": 100,
+    "anneal_steps": 1056,
+    "lr": 5e-6,
+    "end_lr": 1e-6,
     "weight_decay": 0.1,
-    "total_steps": 2312,
+    "total_steps": 1156,
   
     "tpu_size": 8,
   
@@ -33,8 +33,8 @@
   
     "val_batches": 1,
     "val_every": 10000,
-    "ckpt_every": 700,
-    "keep_every": 700,
+    "ckpt_every": 230,
+    "keep_every": 230,
   
     "name": "GPTJ_6B_MS_MARCO",
     "wandb_project": "GPTJ_6B_MS_MARCO",
