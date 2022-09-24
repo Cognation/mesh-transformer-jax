@@ -22,7 +22,7 @@
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "msc_empathy_weights",
+    "model_dir": "reddit_msc_empathy_weights",
   
     "train_set": "msc_empathy.train.index",
     "val_set": {"qna": "qna.val.index"},
