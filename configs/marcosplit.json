@@ -32,9 +32,9 @@
     ],
   
     "val_batches": 1,
-    "val_every": 10000,
-    "ckpt_every": 230,
-    "keep_every": 230,
+    "val_every": 100000,
+    "ckpt_every": 3680,
+    "keep_every": 3680,
   
     "name": "GPTJ_6B_MS_MARCO_SPLIT",
     "wandb_project": "GPTJ_6B_MS_MARCOSPLIT",
