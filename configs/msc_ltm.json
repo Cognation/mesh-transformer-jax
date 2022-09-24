@@ -22,7 +22,7 @@
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "msc_ltm_weights",
+    "model_dir": "reddit_msc_ltm_weights",
   
     "train_set": "msc_ltm.train.index",
     "val_set": {"qna": "qna.val.index"},
@@ -36,7 +36,7 @@
     "ckpt_every": 50,
     "keep_every": 50,
   
-    "name": "GPTJ_6B_reddit_ltm",
+    "name": "Reddit_ltm",
     "wandb_project": "GPTJ_6B_reddit_ltm",
     "comment": ""
   }
