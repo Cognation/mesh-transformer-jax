@@ -22,7 +22,7 @@
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "msmarco_split",
+    "model_dir": "reddit_msmarco_split",
   
     "train_set": "marcosplit.train.index",
     "val_set": {"qna": "qna.val.index"},
@@ -36,7 +36,7 @@
     "ckpt_every": 3680,
     "keep_every": 3680,
   
-    "name": "GPTJ_6B_MS_MARCO_SPLIT",
-    "wandb_project": "GPTJ_6B_MS_MARCOSPLIT",
+    "name": "REDDIT_MS_MARCO_SPLIT",
+    "wandb_project": "REDDIT_MS_MARCOSPLIT",
     "comment": ""
   }
