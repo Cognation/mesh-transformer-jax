@@ -10,19 +10,19 @@
     "seq": 2048,
     "cores_per_replica": 8,
     "per_replica_batch": 1,
-    "gradient_accumulation_steps": 1,
+    "gradient_accumulation_steps": 16,
   
-    "warmup_steps": 1,
-    "anneal_steps": 99,
-    "lr": 5e-5,
-    "end_lr": 1e-5,
+    "warmup_steps": 90,
+    "anneal_steps": 1100,
+    "lr": 5e-6,
+    "end_lr": 1e-6,
     "weight_decay": 0.1,
-    "total_steps": 100,
+    "total_steps": 1190,
   
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "qna_weights",
+    "model_dir": "reddit_qna_weights",
   
     "train_set": "qna.train.index",
     "val_set": {"qna": "qna.val.index"},
@@ -32,11 +32,11 @@
     ],
   
     "val_batches": 1,
-    "val_every": 10,
-    "ckpt_every": 20,
-    "keep_every": 20,
+    "val_every": 100000,
+    "ckpt_every": 200,
+    "keep_every": 200,
   
-    "name": "GPTJ_6B_reddit_qna",
-    "wandb_project": "GPTJ_6B_reddit_qna",
+    "name": "Reddit_qna",
+    "wandb_project": "Reddit_qna",
     "comment": ""
   }
