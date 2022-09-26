@@ -14,15 +14,15 @@
   
     "warmup_steps": 504,
     "anneal_steps": 14500,
-    "lr": 1e-6,
-    "end_lr": 5e-7,
+    "lr": 5e-6,
+    "end_lr": 1e-6,
     "weight_decay": 0.1,
     "total_steps": 15004,
   
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "lfqa",
+    "model_dir": "reddit_lfqa",
   
     "train_set": "lfqa.train.index",
     "val_set": {"qna": "qna.val.index"},
@@ -36,7 +36,7 @@
     "ckpt_every": 3000,
     "keep_every": 3000,
   
-    "name": "GPTJ_6B_MSMARCO_LFQA",
-    "wandb_project": "GPTJ_6B_MSMARCO_LFQA",
+    "name": "REDDIT_MSMARCO_LFQA",
+    "wandb_project": "REDDIT_MSMARCO_LFQA",
     "comment": ""
   }
