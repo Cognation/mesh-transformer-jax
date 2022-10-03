@@ -1,0 +1,42 @@
+{
+    "layers": 28,
+    "d_model": 4096,
+    "n_heads": 16,
+    "n_vocab": 50400,
+    "norm": "layernorm",
+    "pe": "rotary",
+    "pe_rotary_dims": 64,
+  
+    "seq": 2048,
+    "cores_per_replica": 8,
+    "per_replica_batch": 1,
+    "gradient_accumulation_steps": 16,
+  
+    "warmup_steps": 5,
+    "anneal_steps": 35,
+    "lr": 5e-6,
+    "end_lr": 4e-6,
+    "weight_decay": 0.1,
+    "total_steps": 40,
+  
+    "tpu_size": 8,
+  
+    "bucket": "gptjax_model_weights",
+    "model_dir": "reddit_dalle",
+  
+    "train_set": "dalle.train.index",
+    "val_set": {"qna": "qna.val.index"},
+  
+    "eval_harness_tasks": [
+        "piqa"
+    ],
+  
+    "val_batches": 1,
+    "val_every": 100000,
+    "ckpt_every": 10,
+    "keep_every": 10,
+  
+    "name": "REDDIT_DALLE",
+    "wandb_project": "REDDIT_DALLE",
+    "comment": ""
+  }
