@@ -22,7 +22,7 @@
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
-    "model_dir": "reddit_wow",
+    "model_dir": "knowledge_iag_wow",
   
     "train_set": "wow.train.index",
     "val_set": {"qna": "qna.val.index"},
