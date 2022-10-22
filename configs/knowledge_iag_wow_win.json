@@ -36,7 +36,7 @@
     "ckpt_every": 250,
     "keep_every": 250,
   
-    "name": "REDDIT_MARCO_WOW",
-    "wandb_project": "REDDIT_MARCO_WOW",
+    "name": "GPTJ_6B_KNOWLEDGE_IAG_WOW_WIN",
+    "wandb_project": "WIN",
     "comment": ""
   }
