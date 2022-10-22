@@ -12,19 +12,19 @@
     "per_replica_batch": 1,
     "gradient_accumulation_steps": 16,
   
-    "warmup_steps": 150,
-    "anneal_steps": 1515,
+    "warmup_steps": 65,
+    "anneal_steps": 640,
     "lr": 5e-6,
     "end_lr": 1e-6,
     "weight_decay": 0.1,
-    "total_steps": 1665,
+    "total_steps": 705,
   
     "tpu_size": 8,
   
     "bucket": "gptjax_model_weights",
     "model_dir": "knowledge_iag_wow_win",
   
-    "train_set": "para.train.index",
+    "train_set": "knowledge_iag_win.train.index",
     "val_set": {"qna": "qna.val.index"},
   
     "eval_harness_tasks": [
